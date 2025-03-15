@@ -1,5 +1,6 @@
 import type { FC, SVGAttributes } from "react";
 import { useEffect, useRef } from "react";
+import './styles.css';
 
 export type HumeLogoProps = SVGAttributes<SVGSVGElement>;
 
