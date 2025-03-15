@@ -6,7 +6,7 @@ import { Nav } from "@/components/Nav";
 import { cn } from "@/utils";
 
 export const metadata: Metadata = {
-  title: "Clara AI - VIAO",
+  title: "Clara AI - Angelika Nerozzi",
   description: "Clara AI's Empathic Voice Interface",
 };
 
