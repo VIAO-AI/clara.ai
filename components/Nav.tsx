@@ -4,7 +4,6 @@ import { useLayoutEffect, useState } from "react";
 import HumeLogo from "./logos/hume";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
-import Github from "./logos/";
 import pkg from '@/package.json';
 
 export const Nav = () => {
