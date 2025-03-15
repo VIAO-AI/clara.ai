@@ -45,9 +45,7 @@ export const Nav = () => {
           }}
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
-        >
-         
-        >
+          
           <span>
             {isDarkMode ? (
               <Sun className={"size-4"} />
