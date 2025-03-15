@@ -4,7 +4,7 @@ import { useLayoutEffect, useState } from "react";
 import HumeLogo from "./logos/hume";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
-import Github from "./logos/GitHub";
+import Github from "./logos/";
 import pkg from '@/package.json';
 
 export const Nav = () => {
@@ -47,15 +47,7 @@ export const Nav = () => {
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>
-            <Github className={"size-4"} />
-          </span>
-          <span>Star on GitHub</span>
-        </Button>
-        <Button
-          onClick={toggleDark}
-          variant={"ghost"}
-          className={"ml-auto flex items-center gap-1.5"}
+         
         >
           <span>
             {isDarkMode ? (
